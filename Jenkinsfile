@@ -8,7 +8,7 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
+        stage('Build') {
             steps {
 				git branch: 'main',
                 git 'https://github.com/devrathschoudhary1-source/Capstone_Project.git'
