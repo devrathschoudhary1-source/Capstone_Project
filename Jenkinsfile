@@ -10,13 +10,7 @@ pipeline {
 
         stage('Build') {
             steps {
-				git branch: 'main',
-                git 'https://github.com/devrathschoudhary1-source/Capstone_Project.git'
-            }
-        }
-
-        stage('Build') {
-            steps {
+				
                 bat 'mvn clean compile'
             }
         }
