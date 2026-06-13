@@ -3,27 +3,33 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      
+      <class name="base.BaseTest"/>
+      <class name="tests.TC01_UserInformationTest"/>
+         <class name="tests.TC02_GenderSelectionTest"/>
+      <class name="tests.TC03_WeekDaysSelectionTest"/>
+      <class name="tests.TC04_CountryDropdownTest"/>
+      
+      <class name="tests.TC05_ColorMultiSelectTest"/>
+      <class name="tests.TC06_AnimalDropdownTest"/>
+      <class name="tests.TC07_DatePickerTest"/>
       <class name="tests.TC08_SimpleAlertTest"/>
       <class name="tests.TC09_ConfirmationAlertTest"/>
-      <class name="base.BaseTest"/>
-      <class name="tests.TC04_CountryDropdownTest"/>
-      <class name="tests.TC01_UserInformationTest"/>
-      <class name="tests.TC03_WeekDaysSelectionTest"/>
       <class name="tests.TC10_PromptAlertTest"/>
-      <class name="tests.TC05_ColorMultiSelectTest"/>
-      <class name="tests.TC19_DynamicTableTest"/>
+       <class name="tests.TC11_BrowserTabTest"/>
+        <class name="tests.TC12_MouseHoverTest"/>
+       <class name="tests.TC13_DoubleClickTest"/> 
+     
       <class name="tests.TC14_DragAndDropTest"/>
-      <class name="tests.TC11_BrowserTabTest"/>
-      <class name="tests.TC16_MultipleFileUploadTest"/>
-      <class name="tests.TC02_GenderSelectionTest"/>
-      <class name="tests.TC13_DoubleClickTest"/>
       <class name="tests.TC15_SingleFileUploadTest"/>
-      <class name="tests.TC18_StaticTableTest"/>
+      
+      <class name="tests.TC16_MultipleFileUploadTest"/>
       <class name="tests.TC17_SliderTest"/>
-      <class name="tests.TC12_MouseHoverTest"/>
-      <class name="tests.TC07_DatePickerTest"/>
+      <class name="tests.TC18_StaticTableTest"/>
+      <class name="tests.TC19_DynamicTableTest"/>
+      
       <class name="tests.TC20_PaginationTableTest"/>
-      <class name="tests.TC06_AnimalDropdownTest"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
