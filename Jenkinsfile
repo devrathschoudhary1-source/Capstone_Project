@@ -10,6 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
+				git branch: 'main',
                 git 'https://github.com/devrathschoudhary1-source/Capstone_Project.git'
             }
         }
