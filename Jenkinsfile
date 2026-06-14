@@ -23,6 +23,17 @@ pipeline {
     }
 
     post {
+		always {
+			publishHTML([
+				allowMissing : true,
+				alwaysLinkToLastBuild : true,
+				keepAll:true,
+				reportDir : 'test-output',
+				reportFiles: 'emailable-report.html',
+				reportName:'TestNG Report'
+			
+			])
+		}
 
         success {
             echo 'BUILD SUCCESSFUL'
